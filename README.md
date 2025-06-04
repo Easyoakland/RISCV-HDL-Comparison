@@ -20,7 +20,7 @@ TODO
 
 # Languages
 ## CLASH
-The clash code was initialized using `stack new my-clash-project clash-lang/simple`. The old README from this template is available at `README_FROM_TEMPLATE.md`.
+The clash code was initialized using `stack new my-clash-project clash-lang/simple`. The old README from this template is available at `README_FROM_TEMPLATE.md`. The `Project.hs` source and test are also from the template, and not related to the processor design.
 
 ## Testing
 `stack test` or `cabal test` will run some simulated tests using CLASH's ability to run as regular Haskell code.
