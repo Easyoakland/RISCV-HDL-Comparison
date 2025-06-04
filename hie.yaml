@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:RISCV"
+    - path: "./tests/doctests.hs"
+      component: "RISCV:doctests"
+    - path: "./tests"
+      component: "RISCV:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "RISCV:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "RISCV:exe:clash"
