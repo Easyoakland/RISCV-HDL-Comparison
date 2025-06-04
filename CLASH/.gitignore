@@ -45,3 +45,4 @@ cabal.config
 
 # Verilator
 /obj_dir
+test.vcd
