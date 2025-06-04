@@ -1,3 +1,6 @@
+ -- Don't know why the below deriving on `RegisterFile` has an issue, because attempting to select either mode manually doesn't work. This silences the warning.
+{-# OPTIONS_GHC -Wno-deriving-defaults #-}
+
 module RegisterFile where
 
 import Clash.Prelude hiding (Word, Enable)
