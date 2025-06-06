@@ -2,7 +2,7 @@ This repository implements a (partial) RISCV processor in several hardware descr
 
 # Design
 
-The design is based on the 5 stage pipelined processor with forwarding from "Computer Organization and Design RISC-V Edition: THe Hardware Software interface" by David A. Patterson & John L. Hennessy. Branch prediction follows the "assume not taken" strategy.
+The design is based on the 5 stage pipelined processor with forwarding from "Computer Organization and Design RISC-V Edition: The Hardware Software interface" by David A. Patterson & John L. Hennessy. Branch prediction follows the "assume not taken" strategy.
 
 ## Figure
 
