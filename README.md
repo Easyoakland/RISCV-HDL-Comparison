@@ -6,7 +6,7 @@ The design is based on the 5 stage pipelined processor with forwarding from "Com
 
 ## Figure
 
-TODO
+![5StagePipeline.svg](5StagePipeline.svg)
 
 ## Supported Instructions
 
